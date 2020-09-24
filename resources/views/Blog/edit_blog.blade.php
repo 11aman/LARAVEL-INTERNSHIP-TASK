@@ -55,7 +55,7 @@
     <input type="file" name="Bannerimage" class="row">
         <input type="hidden" name="current_Bannerimage" value="{{$edit->Bannerimage}}">
           @if(!empty($edit->Bannerimage))
-        <img src="{{asset('/upload/bannerimage/'.$edit->Bannerimage)}}" alt="" style="width:100px;">
+        <img src="{{$edit->Bannerimage}}" alt="" style="width:100px;">
           @endif
     </div>    
     </div>
@@ -66,7 +66,7 @@
         <input type="file" name="Mainimage">
         <input type="hidden" name="current_Mainimage" value="{{$edit->Mainimage}}">
           @if(!empty($edit->Mainimage))
-        <img src="{{asset('/upload/mainimage/'.$edit->Mainimage)}}" alt="" style="width:100px;">
+        <img src="{{$edit->Mainimage}}" alt="" style="width:100px;">
           @endif
     </div>
     </div>

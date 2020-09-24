@@ -53,12 +53,12 @@
 
                                              <td>
                                             @if(!empty($view->Bannerimage))
-                                              <img src="{{asset('/upload/bannerimage/'.$view->Bannerimage)}}" alt="" style="width:100px;">
+                                              <img src="{{$view->Bannerimage}}" alt="" style="width:100px;">
                                             </td>
                                             @endif
                                             <td>
                                             @if(!empty($view->Mainimage))
-                                              <img src="{{asset('/upload/mainimage/'.$view->Mainimage)}}" alt="" style="width:100px;">
+                                          <img src="{{$view->Mainimage}}" alt="" style="width:100px;">
                                             </td>
                                             @endif
 

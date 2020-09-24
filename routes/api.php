@@ -50,3 +50,13 @@ Route::post('addpressrelease','PressreleaseController@Pressreleaseadd');
 
 Route::any('Pressreleaseinfo','PressreleaseController@Pressreleaseinfo');
 Route::post('addpressreleaseinfo','PressreleaseController@Pressreleaseinfoadd');
+
+
+
+
+
+
+
+Route::any('allData','APIController@allData');
+
+Route::POST('show','APIController@show');
